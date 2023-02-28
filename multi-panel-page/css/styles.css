@@ -29,7 +29,7 @@ h3{
     padding-bottom: 20px;
 }
 h4{
-
+ font-size: 1.5rem;
 }
 .portrait{
     float:right;
@@ -50,12 +50,19 @@ section{
     background-color: rgb(88, 88, 88);
 }
 #two{
-    background-color:rgb(23, 23, 23)
+    background-color: rgb(29, 29, 29);
 }
 #three{
-    background-color: rgb(80, 80, 80);
+    text-align: center;
+    font-size: 27px;
+    padding-left: 400px;
+    padding-right: 400px;
+    background-color: rgb(84, 84, 84);
 }
-div{
+#four{
+    background-color: rgb(29, 29, 29);
+}
+.block{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -64,7 +71,15 @@ div{
     height: 150px;
     margin-left: 2px;
     float: left;
+    padding-bottom: 1.5rem;
+    padding-right: 0.5rem;
+  
 }
 .gridcap{
     font-size: smaller;
 }
+.grid p{
+    font-size: larger;
+    width:450px
+}
+

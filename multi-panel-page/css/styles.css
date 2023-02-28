@@ -1,0 +1,70 @@
+body{
+    font-family: 'Archivo Narrow', sans-serif;
+    color: rgb(255, 255, 255);
+    
+}
+header{
+    text-align: center;
+        padding-top: 100px;
+        padding-bottom: 180px;
+        background-image: url('https://images.adsttc.com/media/images/6338/66d8/4dba/6e52/5dde/7256/newsletter/post-human-aesthetics-in-architecture-interview-with-matias-del-campo_7.jpg?1664640807');
+        background-size: cover;
+        background-position: center;
+}
+h1,h2,h3,h4{
+    letter-spacing: 0.08rem;
+    margin: 0;
+}
+h1{
+    font-size: 80px;
+   margin-top: 52px;
+   padding: 0%;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+h4{
+
+}
+.portrait{
+    float:right;
+    width: 400px;
+    height: 300px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+section{
+    font-size: larger;
+    padding-left: 275px;
+    padding-right: 275px;
+    line-height: 1.2;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+#one{
+    background-color: rgb(88, 88, 88);
+}
+#two{
+    background-color:rgb(23, 23, 23)
+}
+#three{
+    background-color: rgb(80, 80, 80);
+}
+div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid img {
+    width: 200px;
+    height: 150px;
+    margin-left: 2px;
+    float: left;
+}
+.gridcap{
+    font-size: smaller;
+}

@@ -19,7 +19,7 @@
 }
 
 .using-floats::after {
-    content: "";    /* invis after pseudoelem */
+    content: "";    
     display: block;
     clear: both;
 }

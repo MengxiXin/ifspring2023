@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #F7EDE2;
+    color: #333;
+  }
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Header Styles */
+  header {
+    background-color: #ff5e6c;
+    padding: 120px;
+    text-align: left;
+    margin-bottom: -50px;
+    color: #fff;
+        background-image: url('https://github.com/MengxiXin/ifspring2023/blob/main/borscht.jpg?raw=true');
+        background-size: cover;
+        background-position: center;
+  }
+  header h1 {
+    color: #F6BD60;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+    background-color: rgba(0, 0, 0, 0.5);
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: inline-block;
+  margin-bottom: 3%;
+  margin-right: 0%;
+  }
+  header p{
+    color: rgb(255, 255, 255);
+    margin-right: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  display: inline-block;
+  }
+
+  /* Main Content Styles */
+  .container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .time {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    border-radius: 30px 30px 0 0;
+    background-color: #ff5e6c;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: #ff5e6c;
+  }
+  .ingredients p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #333;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .instructions li {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #333;
+  }
+
+  /* Footer Styles */
+  footer {
+    background-color: #ff5e6c;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8em;
+  }
+  .img{
+    float:right;
+    width: 400px;
+    height: 300px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @media (max-width: 640px) {
+    .ingredients p {padding-top: 5px;
+    padding-bottom: 5px;}
+    body{font-size: 16px;}
+    header { padding:80px; 
+    padding-left: 5%;
+    padding-right: 5%;}
+    header h1 {font-size: 35px;}
+    header p {margin-right: auto;}
+    .container {max-width:auto}
+    .column {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+     }
+
+        @media (max-width: 480px) {
+          .ingredients p {padding-top: 3px;
+            padding-bottom: 3px;}
+          body{font-size: 14px;}
+          header { padding:80px;
+            padding-left: 5%;
+          padding-right: 5%; } 
+          header h1 {font-size: 30px;
+          padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+        }
+          .container {max-width:auto}
+          .column {
+            display: grid;
+            grid-template-columns: 1fr;
+          }}
+          
+
+        

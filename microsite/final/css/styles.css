@@ -1,0 +1,411 @@
+span#capital{
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 40px;
+}
+#logo {
+  position: absolute;
+  top: 50%;
+  margin-left: 65%;
+  transform: translate(-50%, -50%);
+  max-width: 80%;
+  height: auto;
+  padding: 10px 10px 10px 10px;
+}
+body#initial{
+    background-image: url("https://github.com/MengxiXin/ifspring2023/blob/main/oblivion%20map.png?raw=true");
+    background-size: 140%;
+  background-repeat: repeat;
+  background-position-x: -50%;
+  background-position-y: 100%;}
+
+body#side{
+  background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/02/Grunge-Parchment-Paper-Texture.jpg");
+  background-size: cover;
+  background-repeat:repeat;
+  background-position: center;
+}
+
+  
+body{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Cinzel', serif;
+    margin: 0;
+    padding: 0;
+  }
+  h1{
+    color: #fff;
+    background-image:url("https://github.com/MengxiXin/ifspring2023/blob/main/text%20ink%20frame.png?raw=true");
+    background-size:290px 60px;
+    padding: 15px 15px 15px 15px;
+    filter: contrast(0.8);
+    background-repeat: no-repeat;
+    font-family: 'Cinzel', serif;
+    position: right;
+    opacity: 1;
+    z-index: 999;
+  }
+  span#title{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #fff;
+    background-image:url("https://github.com/MengxiXin/ifspring2023/blob/main/text%20ink%20frame.png?raw=true");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 18px 120px 9px 80px;
+    filter: contrast(0.9);
+    background-repeat: no-repeat;
+    font-family: 'Cinzel', serif;
+    position: right;
+    opacity: 0.8;
+    z-index: 999;
+  }
+  span#sound{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #fff;
+    background-image:url("https://github.com/MengxiXin/ifspring2023/blob/main/text%20ink%20frame.png?raw=true");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 18px 120px 9px 80px;
+    filter: contrast(0.9);
+    background-repeat: no-repeat;
+    font-family: 'Cinzel', serif;
+    position: right;
+    opacity: 0.8;
+    z-index: 999;
+    margin-left: 85px;
+  }
+  div#title{
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  div#main{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 5%;
+    padding: 5%;
+  }
+  .column{
+    background-color: rgba(255, 255, 255, 0.0);
+    margin: 1%;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+p{
+  margin-top: 40px;
+  margin-bottom: 5px;
+  color: #1c1202;
+  font-family: 'Architects Daughter',cursive;
+  line-height: 1.5;
+  font-size: large;
+    opacity:1;
+    z-index: 999;
+}
+  
+  header {
+    background-image: url("https://www.onlygfx.com/wp-content/uploads/2015/10/leather-texture-black1.jpg");
+    opacity: 0.8;
+    background-color: #333;
+    color: #fff;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+  
+  nav#cover {
+    background-image: url("https://www.onlygfx.com/wp-content/uploads/2015/10/leather-texture-black1.jpg");
+    opacity: 0.9;
+    background-color: #272727;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: repeat;
+    background-size: cover;
+    max-width: 20%;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    text-align: center;
+    margin: 70px 0;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+  a#bar:hover{
+    color: #FFFFFF;
+text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+  }
+  a#side:hover{
+    color: #FFFFFF;
+text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  nav#side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul#side {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li#side {
+    margin: 0 12px;
+  }
+  ul#songlist{
+    margin: 0%;
+  }
+  li#songlist{
+    color: #1c1202;
+  font-family: 'Architects Daughter',cursive;
+  line-height: 3;
+  font-size: large;
+    opacity:1;
+    z-index: 999;
+    text-align: center;
+    margin: 0%;
+  }
+  h1#songlist{
+    text-align: center;
+  }
+  a#side {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  a#btn_game {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-image: url("https://www.onlygfx.com/wp-content/uploads/2015/10/leather-texture-black1.jpg");
+    opacity: 0.9;
+    background-repeat: repeat;
+    background-size: cover;
+    border: 2px solid #ffffff;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+    position: absolute;
+  top: 70%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+    
+}
+a#btn_game:hover {
+  background-image: none;
+  background: rgb(124,1,1);
+  background: linear-gradient(0deg, rgba(124,1,1,1) 0%, rgba(253,29,29,1) 49%, rgba(252,176,69,1) 100%);
+  border: 2px solid #000;
+  color: #000;
+}
+footer {
+  line-height: 2em;
+  background-image: url("https://www.onlygfx.com/wp-content/uploads/2015/10/leather-texture-black1.jpg");
+  opacity: 0.8;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.8em;
+  background-repeat: repeat;
+    background-size: cover;
+}
+div#footer{
+  font-size: 1.2em;
+}
+a#twitter:hover{
+  color: #1DA1F2;
+
+}
+a#steam:hover{
+  color:#6b7ca3;
+  
+}
+a#instagram:hover{
+  background: #121FCF;
+background: linear-gradient(to top right,  #ffe032 0%, #ff3030 36%, #ff28c9 65%, #8991ff 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.portrait{
+  width: 500px;
+  float: right;
+  margin-left:17px;
+  margin-bottom: 12px;
+  margin-top: 5px;
+  margin-right: 0;
+}
+.portrait2{
+  width: 500px;
+  float: left;
+  margin-right:17px;
+  margin-bottom: 12px;
+  margin-top: 5px;
+  margin-left: 0;
+}
+@media (max-width: 640px) {
+  em{
+    padding: 5px;
+  }
+  li#side {
+    font-size: 16px;
+  }
+  #logo {
+    width: 800px;
+    position: absolute;
+    margin-top: 5%;
+    top: 0%;
+    margin-left: 80px;
+    transform: translate(0%, 0%);
+    max-width: 65%;
+    height: auto;
+  }
+
+  li{
+    font-size: 16px;
+    text-align: center;
+  }
+  nav#cover {
+    background-image: url("https://www.onlygfx.com/wp-content/uploads/2015/10/leather-texture-black1.jpg");
+    opacity: 0.9;
+    background-color: #272727;
+    max-width: 90%;
+    width: 800px;
+    height: 45%;
+    position: absolute;
+    background-repeat: repeat;
+    background-size: cover;
+    margin-top: 225px;
+    margin-left: 20px;
+    
+
+  }
+
+  a#btn_game {
+    position: relative;;
+    text-align: center;
+    display: inline-block;
+    width: 600px;
+    max-width: 50%;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin-left: auto;
+    padding: 0px 40px 0 40px;
+    background-image: url("https://www.onlygfx.com/wp-content/uploads/2015/10/leather-texture-black1.jpg");
+    opacity: 0.9;
+    background-repeat: repeat;
+    background-size: cover;
+    border: 2px solid #ffffff;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+    position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-0%, -0%);
+  margin-bottom: 10px;
+  margin-top: 620px;
+  margin-left: 150px;
+  margin-right: 20px;
+  height: auto;
+  padding: 2px 2px 2px 2px;
+ 
+    
+}
+li {
+  margin: 20px 0;
+}
+.column{
+  background-color: rgba(255, 255, 255, 0.0);
+  margin: 1%;
+  padding: 1%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+nav#side{
+  padding: 20px 20px 20px 20px;
+}
+   }
+
+
+  @media (max-width: 480px) {
+    em{
+      padding: 5px;
+    }
+    nav#side{
+      padding: 20px 20px 20px 20px;
+    }
+    li#side {
+      font-size: 14px;
+    }
+    li{
+      font-size: 14px;
+      text-align: center;
+    }
+    a#btn_game {
+      margin-left: 100px;
+      text-align: center;
+      font-size: 14px;
+      height: auto;
+      padding: 2px 2px 2px 2px;
+      
+    }
+    #logo{
+      max-width: 80%;
+      margin-left: 36px;
+    }
+  }
+  em{
+    text-align: center;
+    align-content: center;
+    background: #FFEE00;
+    background: linear-gradient(to bottom, #FFEE00 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: large;
+    font-weight: bolder;
+    padding: 10px;
+  }

@@ -82,7 +82,6 @@
     color: #ff5e6c;
   }
   span{
-    font-weight: bold;
     font-size: large;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -134,7 +133,7 @@
     padding-bottom: 10px;
     padding-top: 10px;
     color: rgb(144, 101, 101);
-    font-weight: bold;
+    line-height: 2;
   }
   ul.ingredients{
     margin-top: 30px;

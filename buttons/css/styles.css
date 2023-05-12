@@ -1,0 +1,576 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+}
+a#btn_coca-cola img{
+    padding: 1px 1px 1px 1px;
+}
+a#btn_coca-cola {
+    background-color: white;
+    display: inline-block;
+    transition: all .5s;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 15px 10px 15px;
+    height: 40px;
+    overflow: hidden;
+}
+
+a#btn_coca-cola:hover {
+    height: 40px;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 20%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0b7a1+0,8c3310+85,752201+99,bf6e4e+100 */
+background: #f0b7a1; /* Old browsers */
+background: -moz-linear-gradient(top,  #f0b7a1 0%, #8c3310 85%, #752201 99%, #bf6e4e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f0b7a1 0%,#8c3310 85%,#752201 99%,#bf6e4e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f0b7a1 0%,#8c3310 85%,#752201 99%,#bf6e4e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
+}
+a#btn_coca-cola img:hover{
+    filter: grayscale(100%) brightness(400%) sepia(100%) saturate(0);
+}
+a#btn_apple1 {
+    color: #000;
+    background-color: white;
+    display: inline-block;
+    transition: all .5s;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    padding: 0px 0px 0px 0px;
+    height: 150px;
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+}
+a#btn_apple2 {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+        top: 0;
+        left: 0;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.5s ease-in-out;
+        
+}
+
+a#btn_apple1:hover{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a6ff2b+0,ff8c8c+43,fba6e1+59,7ce0ff+100 */
+background: #a6ff2b; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #a6ff2b 0%, #ff8c8c 43%, #fba6e1 59%, #7ce0ff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #a6ff2b 0%,#ff8c8c 43%,#fba6e1 59%,#7ce0ff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #a6ff2b 0%,#ff8c8c 43%,#fba6e1 59%,#7ce0ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6ff2b', endColorstr='#7ce0ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+           background-clip: text;
+           color: transparent;
+}
+a#btn_apple2:hover{
+    visibility: visible;
+        opacity: 1;
+   }
+   a#btn_ideo{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    display: inline-block;
+    transition: all .5s;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    padding: 0px 0px 0px 0px;
+    height: 150px;
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+   } 
+   a#btn_ideo:hover .ideo1{
+    color: #0072CE;
+   }
+   a#btn_ideo:hover .ideo2{
+    color: #FF8000;
+   }
+
+   a#btn_kors {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    border: 1px solid #000000;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+   }
+   a#btn_kors:hover {
+    color: #FFFFFF;
+background: #989696;
+text-shadow: 3px 5px 2px #474747;
+border:white
+   }
+   a#btn_jogger {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    border: 1px solid #0f260b;
+    color: #0f260b;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+   }
+   a#btn_jogger:hover {
+    -webkit-box-shadow: 0px 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 10px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 10px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0);
+
+
+   }
+   
+   a#btn_food {
+    display: inline-block;
+    height: 60px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    color: #620909;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+   }
+   a#btn_food:hover {
+    color: transparent;
+    background: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+   }
+
+   a#btn_harley {
+    background-color: white;
+    display: inline-block;
+    transition: all .5s;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 15px 10px 15px;
+    height: 60px;
+    overflow: hidden;
+    filter: grayscale(100%);
+    
+}
+
+a#btn_harley:hover {
+        filter: none;
+        scale: 2;
+      }
+   a#btn_facebook {
+    color: #1877f2;
+    background-color: white;
+    display: inline-block;
+    transition: all .5s;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    padding: 0px 0px 0px 0px;
+    height: 150px;
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+}
+a#btn_facebook:hover {
+    color: #FFFFFF;
+background: #FFFFFF;
+text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+}
+a#btn_lyft img{
+    padding: 1px 1px 1px 1px;
+}
+a#btn_lyft {
+    background-color: white;
+    display: inline-block;
+    transition: all .5s;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 15px 10px 15px;
+    height: 60px;
+    overflow: hidden;
+}
+
+a#btn_lyft:hover {
+    height: 60px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0b7a1+0,8c3310+85,752201+99,bf6e4e+100 */
+background: #FF00BF
+}
+a#btn_lyft img:hover{
+    filter: grayscale(100%) brightness(400%) sepia(100%) saturate(0);
+}
+a#btn_oldnavy {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    border: 1px solid #082A4D;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
+    text-decoration: none;
+    transition: all .5s;
+    border-radius: 500px;
+    background-color: #082A4D;
+   }
+   a#btn_oldnavy:hover {
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+   }
+   a#btn_instagram {
+    color: #000;
+    background-color: white;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 80px;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+    transition: all .5s;
+    border-radius: 25px;
+    display: inline-block;
+    height: 100px;
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+    line-height: 0.5;
+}
+
+a#btn_instagram:hover{
+    color: white;
+    transition: all .5s;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffe032+0,ff3030+36,ff28c9+65,8991ff+100 */
+background: #ffe032; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #ffe032 0%, #ff3030 36%, #ff28c9 65%, #8991ff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #ffe032 0%,#ff3030 36%,#ff28c9 65%,#8991ff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #ffe032 0%,#ff3030 36%,#ff28c9 65%,#8991ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe032', endColorstr='#8991ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+a#btn_samsung {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color:#1428A0;
+    border-radius: 100%;
+   }
+   
+   a#btn_samsung:hover {
+        animation: rotate 0.5s ease-in-out;
+        transform-origin: center;
+      }
+@keyframes rotate {
+    0% { transform: rotate(-5deg); }
+    50% { transform: rotate(5deg); }
+    100% { transform: rotate(-5deg); }
+  }
+  a#btn_nike {
+    background-color: white;
+    display: inline-block;
+    transition: all .5s;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 15px 10px 15px;
+    height: 60px;
+    overflow: hidden;
+}
+
+a#btn_nike:hover {
+        transform: scale(1.5);
+        transition: transform 0.5s ease-in-out;
+        color: #2ebd59;
+      }
+      a#btn_thecolorrun {
+        background-color: white;
+        display: inline-block;
+        transition: all .5s;
+        margin: auto;
+        margin-top: 100px;
+        padding: 10px 15px 10px 15px;
+        height: 60px;
+        overflow: hidden;
+        filter: grayscale(100%);
+    }
+    
+    a#btn_thecolorrun:hover {
+            filter: none;
+          }
+          a#btn_missouri {
+            background-color: white;
+            display: inline-block;
+            transition: all .5s;
+            margin: auto;
+            margin-top: 100px;
+            padding: 10px 15px 10px 15px;
+            height: 60px;
+            overflow: hidden;
+            transform: 0.5s;
+        }
+        
+        a#btn_missouri:hover {
+            transform: rotate(360deg);
+            transform-origin: center;
+              }
+          a#btn_usarmy {
+            position: relative;
+            background-color: white;
+            display: inline-block;
+            transition: all .5s;
+            margin: auto;
+            margin-top: 90px;
+            padding: 15px 12px 15px 12px;
+            height: 90px;
+        overflow: hidden;
+        }
+        a#btn_usarmy img{
+            position: relative;
+            height: 60px;
+            scale: 4;
+            margin-left: 145%;
+            transition: all .5s;
+        }
+        
+        a#btn_usarmy:hover img{
+            margin-left: 0%;
+            scale:2;
+              }
+              a#btn_usarmy:hover{
+                padding: 30px 50px 30px 50px;
+                  }
+             
+a#btn_explodingkittens {
+            background-color: rgb(255, 255, 255);
+            display: inline-block;
+            transition: all .5s;
+            margin: auto;
+            margin-top: 80px;
+            padding: 10px 50px 10px 50px;
+            height: 80px;
+            overflow: hidden;
+            transition: all .5s;
+        }
+        a#btn_explodingkittens img{
+            margin-top: +150%;
+            scale: 4;
+            transition: all .5s;
+        }
+        a#btn_explodingkittens:hover {
+            height: 200px;
+    
+        }
+        a#btn_explodingkittens:hover img{
+            margin-top: 30%;
+            scale: 2;
+    
+        }
+        a#btn_newyorker {
+            display: inline-block;
+            height: 50px;
+            box-sizing: border-box;
+            margin: auto;
+            margin-top: 80px;
+            padding: 10px 40px 0 40px;
+            color: #000000;
+            font-size: 30px;
+            font-family: 'Lora', serif;
+            font-weight:bolder;
+            text-decoration: none;
+            transition: all .5s;
+           }
+           a#btn_newyorker:hover {
+           color: #333333;
+background: #FFFFFF;
+text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);}
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+a#btn_moo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #289941;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_moo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #289941;
+    transition: all .5s;
+}
+
+a#btn_moo:hover {
+    color: #fff;
+}
+
+a#btn_moo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_moo span {
+    position: relative;
+    z-index: 10;
+}
+a#btn_pottermore {
+    background-color: white;
+    display: inline-block;
+    transition: all .5s;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 15px 10px 15px;
+    height: 60px;
+    overflow: hidden;
+}
+
+a#btn_pottermore:hover {
+    height: 60px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0b7a1+0,8c3310+85,752201+99,bf6e4e+100 */
+background: #000000
+}
+a#btn_pottermore img:hover{
+    filter: grayscale(100%) brightness(400%) sepia(100%) saturate(0);}

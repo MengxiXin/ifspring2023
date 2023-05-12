@@ -17,8 +17,10 @@
     text-decoration: none;
   }
   img {
-    max-width: 100%;
+    border-radius: 10px;
+    max-width: 80%;
     height: auto;
+    width: auto;
   }
 
   /* Header Styles */
@@ -82,6 +84,7 @@
     color: #ff5e6c;
   }
   span{
+    line-height: 2;
     font-size: large;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -128,8 +131,8 @@
     padding: 0;
   }
   .instructions p {
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-top: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
     color: rgb(144, 101, 101);

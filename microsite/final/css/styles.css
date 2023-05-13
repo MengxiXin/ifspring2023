@@ -1,3 +1,11 @@
+html{
+  display: flex;
+  flex-direction: row;
+}
+head{
+  display: flex;
+  flex-direction: row;
+}
 span#capital{
   font-family: 'UnifrakturMaguntia', cursive;
   font-size: 40px;
@@ -23,12 +31,13 @@ body#side{
   background-size: cover;
   background-repeat:repeat;
   background-position: center;
+  size: 1000px;
 }
 
   
 body{
-    display: flex;
-    flex-direction: row;
+   display: flex;
+   flex-direction: row;
     font-family: 'Cinzel', serif;
     margin: 0;
     padding: 0;
@@ -71,20 +80,28 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
-    padding: 18px 120px 9px 80px;
+    padding: 18px 120px 9px 120px;
     filter: contrast(0.9);
     background-repeat: no-repeat;
     font-family: 'Cinzel', serif;
     position: right;
     opacity: 0.8;
     z-index: 999;
-    margin-left: 85px;
   }
   div#title{
     margin-top: 30px;
     margin-bottom: 50px;
   }
   div#main{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 5%;
+    padding: 5%;
+  }
+  div#timeline{
+    margin: 5%;
+    padding: 5%;
+  }
+  div#sound{
     background-color: rgba(255, 255, 255, 0.5);
     margin: 5%;
     padding: 5%;
@@ -176,7 +193,9 @@ text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40
     justify-content: center;
     align-items: center;
   }
-  
+  div#sound{
+    text-align: center;
+  }
   ul#side {
     list-style: none;
     margin: 0;
@@ -284,7 +303,15 @@ background: linear-gradient(to top right,  #ffe032 0%, #ff3030 36%, #ff28c9 65%,
   margin-top: 5px;
   margin-left: 0;
 }
-@media (max-width: 640px) {
+@media only screen and (max-width: 640px) {
+  body#side { 
+    zoom: .65; 
+}
+  div#sound{
+    text-align: center;
+  }
+  span#sound{
+  }
   em{
     padding: 5px;
   }
@@ -370,8 +397,139 @@ nav#side{
 }
    }
 
+   {
+    box-sizing: border-box;
+  }
+  
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: rgba(255, 255, 255, 0.858);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  /* Container around content */
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 42%;
+  }
+  
+  /* The circles on the timeline */
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: rgba(255, 255, 255, 0.485);
+    border: 4px solid #ff9f55bd;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* Place the container to the left */
+  .left {
+    left: 0;
+  }
+  
+  /* Place the container to the right */
+  .right {
+    left: 50%;
+  }
+  
+  /* Add arrows to the left container (pointing right) */
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+  }
+  
+  /* Add arrows to the right container (pointing left) */
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -16px;
+  }
+  
+  /* The actual content */
+  .content {
+    padding: 20px 30px;
+    background-color: rgba(255, 255, 255, 0.496);
+    position: relative;
+    border-radius: 6px;
+  }
+  
 
-  @media (max-width: 480px) {
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container {
+  width: 90%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
+   @media only screen and (max-width: 480px) {
+    body#side { 
+      zoom: .44; }
     em{
       padding: 5px;
     }
